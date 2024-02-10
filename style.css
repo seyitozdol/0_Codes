@@ -88,11 +88,41 @@
     
 }
 
+/* column-container */
+.column-container{
 
-
-
+    column-count: 3;
+    column-gap: 30px;
+    column-rule: 1px solid red;
+    text-transform: capitalize;
+    text-align: justify;
 
 }
+
+/* line-clamp */
+
+.line-clamp4{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+/*for other browsers*/
+    display: -moz-box;
+    -moz-line-clamp: 4;
+    -moz-box-orient: vertical;
+    overflow: hidden;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
