@@ -114,6 +114,39 @@
 
 }
 
+/* link */
+#cstv_id{
+    color: red;
+    background-color: black;
+    padding: 8px;    
+    text-decoration: none;
+}
+#cstv_id:hover{
+    color: black;
+    background-color: red;
+    padding: 8px;    
+    text-decoration: none;
+}
+.cstv_width_height{
+    background-color: blue;
+    color: white;
+    margin-top: 5px;
+    width: 200px;
+    height: 50px;
+
+}
+.cstv_width_height:hover{
+    background-color: white;
+    color: blue;
+    margin-top: 5px;
+    width: 200px;
+    height: 50px;
+    cursor: text ;
+
+}
+
+
+}
 
 
 
